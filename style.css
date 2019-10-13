@@ -124,12 +124,12 @@ fotter {
 }
 
 .fotter-menu ul {
-	margin: 20px;
 	list-style: none;
   padding-inline-start: 0px;
 }
 .fotter-menu ul li {
 	padding: 10px 20px;
+	margin-bottom: 10px;
 }
 .fotter-menu ul li a {
 	position: relative;
