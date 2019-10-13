@@ -10,15 +10,6 @@ body{
   font-family: 'Poiret One', cursive, sans-serif;
 }
 
-
-header{
-  margin: 0 auto;
-}
-
-.header {
-  margin: 0 auto;
-}
-
 .logo {
   display: flex;
   justify-content: center;
@@ -47,6 +38,9 @@ header{
 }
 
 @media (min-width: 601px) {
+   header{
+     margin: 0 auto;
+   }
   .header-menu ul li a:after {
     content: '';
     width: 0px;
