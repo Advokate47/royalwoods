@@ -8,6 +8,7 @@ body{
   background-color: #eddfd9;
   margin: 0px;
   font-family: 'Poiret One', cursive, sans-serif;
+	overflow-x: hidden;
 }
 
 .logo {
@@ -25,8 +26,8 @@ body{
   padding-inline-start: 0px;
 }
 .header-menu ul li {
-	padding: 10px 20px;
-  width: 26%;
+	padding: 10px 12px;
+  
 }
 .header-menu ul li a {
   
@@ -41,6 +42,10 @@ body{
    header{
      margin: 0 auto;
    }
+	.header-menu ul li {
+	padding: 10px 20px;
+  
+}
   .header-menu ul li a:after {
     content: '';
     width: 0px;
