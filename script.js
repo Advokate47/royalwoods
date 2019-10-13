@@ -279,6 +279,8 @@ aboutHeaderMenu.addEventListener('click', addHidden);
 portfolioHeaderMenu.addEventListener('click', addHidden);
 priceHeaderMenu.addEventListener('click', addHidden);
 commentsHeaderMenu.addEventListener('click', addHidden);
+document.querySelector('.fotter-logo').addEventListener('click', ()=> {event.preventDefault(); goUp();};
+
 
 function openGallery (event) {
   event.preventDefault();
