@@ -93,6 +93,10 @@ body{
     font-weight: bold;
 }
 
+.projekt:hover {
+  color: #8fbc8f;
+}
+
 fotter {
   width: 100%;
   background-color: white;
