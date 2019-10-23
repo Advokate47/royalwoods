@@ -129,6 +129,7 @@ fotter {
 .fotter-about {
   display:flex;
   flex-direction: column;
+  margin-top: 8px;
   
 }
 .fotter-about a {
@@ -154,6 +155,10 @@ fotter {
 
 .fotter-menu ul li a:hover {
   color: #8fbc8f;
+}
+
+.fotter .logo {
+  margin-bottom: 20px;
 }
 
 .price, .about, .comments {
